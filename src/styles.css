@@ -1,0 +1,41 @@
+#head {
+  background: black;
+  height: 50px;
+  width: 50px;
+  background-color: yellow;
+  position: absolute;
+}
+
+#board {
+  height: 700px;
+  width: 700px;
+  border: 1px black solid;
+  position: relative;
+  background: conic-gradient(
+    white 90deg,
+    #244431 90deg 90deg,
+    white 180deg 90deg,
+    #244431 270deg
+  );
+  background-size: 60px 60px;
+  background-repeat: repeat;
+  margin: 1rem;
+}
+
+#apple {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+}
+
+body {
+  display: flex;
+  align-items: content;
+  /* justify-content: center; */
+  /* height: 100vh; */
+  /* color: #244431; */
+  font-family: 'VT323', monospace;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #a55b2a;
+}
